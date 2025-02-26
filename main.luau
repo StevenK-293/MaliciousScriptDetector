@@ -74,7 +74,7 @@ if syn and syn.request then
         local suspicious, matched = is_suspicious_str(url, sus_patterns)
         if suspicious then
             warn("[BLOCKED] Suspicious HTTP request detected! Patterns: " .. table.concat(matched, ", "))
-            return { StatusCode = 403, Body = "Request blocked by anti-malware script." }
+            return { StatusCode = 403, Body = "Request blocked by MaliciousScriptDetector script." }
         end
         return originalSynRequest(options)
     end
@@ -102,7 +102,7 @@ function httpService:RequestAsync(requestOptions)
     local suspicious, matched = is_suspicious_str(url, sus_patterns)
     if suspicious then
         warn("[BLOCKED] Suspicious RequestAsync detected! Patterns: " .. table.concat(matched, ", "))
-        return { Success = false, StatusCode = 403, Body = "Request blocked by anti-malware script." }
+        return { Success = false, StatusCode = 403, Body = "Request blocked by MaliciousScriptDetector script." }
     end
     return originalRequestAsync(self, requestOptions)
 end
