@@ -8,7 +8,7 @@ local sus_patterns = {
     "doxbin",
     "robux%-generator",
     "free%-robux"
-  -- add nmore if you want
+  -- add more if you want
 }
 
 -- List of network-related functions to detect in a loadstring
