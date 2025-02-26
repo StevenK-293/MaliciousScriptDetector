@@ -27,7 +27,7 @@ local sus_functions = {
     "game%.HttpGet",
     "HttpService%:RequestAsync"
 }
-
+-- some of these data are not bad but i just added it anyways, like the accountAge, or Name or displayname but i just added it anyways.
 local sus_data_collection = {
     "game:GetService%('RbxAnalyticsService'%)",
     "Players.LocalPlayer.UserId",
