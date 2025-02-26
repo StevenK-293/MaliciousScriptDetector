@@ -21,7 +21,7 @@ local sus_functions = {
     "HttpService%:RequestAsync"
 }
 
--- Helper function: checks if a string contains suspicious content
+--checks if a string contains suspicious content
 local function is_suspicious_str(str, patterns)
     local lowerStr = str:lower()
     local matchedPatterns = {}
