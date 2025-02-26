@@ -1,6 +1,6 @@
 # MaliciousScriptDetector
 
-**Protects you from malicious scripts that attempt to steal IPs, HWIDs, or send data to webhooks. This script automatically detects and blocks dangerous HTTP requests.**  
+**Protects you from malicious scripts that attempt to steal IPs, or send data to webhooks. This script automatically detects and blocks dangerous HTTP requests.**  
 
 - W.I.P
 ---
