@@ -13,7 +13,6 @@
 - Obfuscated scripts attempting to send data  
 
 ✅ **Hooks key functions to prevent data leaks**  
-✅ **Warns the user when a script is blocked**  
 
 ---
 
